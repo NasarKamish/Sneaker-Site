@@ -86,7 +86,7 @@
 
 /* Used to scale down the home image. You can remove this. */
 img {
-  max-width: 30%;
+  max-width: 40%;
 }
 
 /* PLEASE START YOUR STYLES UNDERNEATH THIS */
@@ -448,7 +448,7 @@ i {
 .big-modal-image {
   padding-top: 50px;
   margin-bottom: 50px;
-  max-width: 90%;
+  max-width: 70%;
   transition: 0.3s ease-in;
 }
 
