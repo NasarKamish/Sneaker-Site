@@ -437,10 +437,17 @@ i {
   flex-direction: column;
   align-items: center;
   margin-right: 30px;
+  min-width: 50%;
+  height: 700px;
 }
+
+.modal-content {
+  min-width: 50%;
+}
+
 .big-modal-image {
   padding-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   max-width: 90%;
   transition: 0.3s ease-in;
 }
@@ -456,11 +463,6 @@ i {
   transition: 0.3s ease-in;
 }
 
-.small-modal-images:hover {
-  color: white;
-  background-color: lightcoral;
-  border-radius: 20%;
-}
 .small-modal-image {
   margin-top: 20px;
   width: 150px;
